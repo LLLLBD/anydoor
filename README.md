@@ -18,3 +18,5 @@ anydoor -h localhost #设置host为localhost
 
 anydoor -d /usr #设置根目录为 /usr
 ```
+
+##注，anydoor作者为samaritan89老师，本人并没有publish该命令至NPM
