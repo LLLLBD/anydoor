@@ -16,7 +16,7 @@ function refreshRes(stats, res) {
     }
 
     if (etag) {
-        res.setHeader('ETag', `${stats.size}-${stats.mtime.toUTCString()}`);
+        res.setHeader('ETag', `${stats.size}-${stats.mtime}`);
     }
 }
 

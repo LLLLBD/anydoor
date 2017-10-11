@@ -2,10 +2,14 @@
   "name": "anydoor",
   "version": "1.0.0",
   "description": "Tiny NodeJs Static Web server",
-  "main": "build/index.js",
+  "main": "src/app.js",
+  "bin": {
+      "anydoor": "bin/anydoor"
+  },
   "dependencies": {
     "chalk": "^2.1.0",
-    "handlebars": "^4.0.10"
+    "handlebars": "^4.0.10",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
     "pre-commit": "^1.2.2",
